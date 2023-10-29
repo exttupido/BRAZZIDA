@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&display=swap');
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+  color: #242424;
+}
+
+.navbar .nav-item .nav-link {
+  color: white !important;
+}
+
+.food-hero {
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+}
+
+.food-hero > div {
+  justify-content: center;
+}
+
+.food-hero img {
+  background-size: cover;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .food-hero > div {
+    justify-content: inherit;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  /* #about-me {
+    width: 90%;
+  } */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .food-hero .image-block {
+      /* background-color: red; */
+      width: 50% !important;
+    }
+
+    #contato, #sobre-nos {
+      width: 70%;
+    }
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* Custom Colors */
+.text-bern-red {
+  color: rgba(235, 10, 11, 0.87);
+}
+
+.btn-bern-red {
+  background-color: rgba(235, 10, 11, 0.87);
+}
+
+.btn-yellow-gold {
+  background-color: #F5B53B;
+}
+
+.btn-yellow-gold:hover {
+  background-color: #F5B53B;
+  opacity: 0.9;
+}
